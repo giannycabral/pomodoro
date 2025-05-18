@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Retro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=VT323&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <main class="container">
+        <header class="header">
+            <h1 class="title">Timer Retro</h1>
+        </header>
+
+        <div class="timer-container" aria-live="polite">
+            <div class="timer" role="timer" aria-label="Tempo restante">
+                <span id="minutes" aria-label="minutos">25</span><span class="blink">:</span><span id="seconds"
+                    aria-label="segundos">00</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress" id="timer-progress"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="toggle" class="btn btn-primary glow-effect" aria-label="Iniciar/Pausar timer">
+                <span class="btn-icon">►</span>
+                <span class="btn-text">INICIAR</span>
+            </button>
+            <button id="reset" class="btn btn-danger glow-effect" aria-label="Reiniciar timer">
+                <span class="btn-icon">⟲</span>
+                <span class="btn-text">RESET</span>
+            </button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">Desenvolvido por <span class="footer-author">Regiane Cabral</span></p>
+    </footer>
+
+    <div id="notification" class="notification" role="alert"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
