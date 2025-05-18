@@ -2,7 +2,7 @@
 
 Um timer Pomodoro estilizado com design retro e efeitos visuais modernos.
 
-![Timer Retro](./preview.png)
+![Image](https://github.com/user-attachments/assets/9907c3fc-0cbe-4f67-9733-36b902840e0a)
 
 ## Funcionalidades
 
